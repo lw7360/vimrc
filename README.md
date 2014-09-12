@@ -1,4 +1,5 @@
 vimrc
 =====
 
-The vimrc that will pierce the heavens
+My vimrc.
+
