@@ -16,6 +16,10 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'Townk/vim-autoclose'
 
+Plugin 'kchmck/vim-coffee-script'
+
+Plugin 'derekwyatt/vim-scala'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,8 +54,8 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 set incsearch
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set ignorecase
 set smartcase
@@ -81,6 +85,8 @@ map <F7> :tabp<CR>
 map <F8> :tabn<CR>
 
 set timeoutlen=500 ttimeoutlen=0
+
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
 map ; :
 noremap ;; ;
