@@ -20,6 +20,22 @@ Plugin 'kchmck/vim-coffee-script'
 
 Plugin 'derekwyatt/vim-scala'
 
+Plugin 'digitaltoad/vim-jade'
+
+Plugin 'fatih/vim-go'
+
+Plugin 'terryma/vim-expand-region'
+
+Plugin 'Valloric/YouCompleteMe'
+
+Plugin 'tpope/vim-commentary'
+
+Plugin 'tpope/vim-sleuth'
+
+Plugin 'tpope/vim-endwise'
+
+Plugin 'rking/ag.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -48,10 +64,13 @@ set backspace=indent,eol,start
 set laststatus=2
 set number
 autocmd BufEnter * silent! lcd %:p:h:gs/ /\\ /
-let mapleader=","
+let mapleader = "\<Space>"
 
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
+vmap v <Plug>(expand_region_expand)
+vmap <C-v> <Plug>(expand_region_shrink)
 
 set incsearch
 set softtabstop=2
@@ -90,3 +109,6 @@ set timeoutlen=500 ttimeoutlen=0
 
 map ; :
 noremap ;; ;
+
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
