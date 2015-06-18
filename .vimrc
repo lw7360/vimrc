@@ -73,6 +73,7 @@ vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 
 set incsearch
+set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
