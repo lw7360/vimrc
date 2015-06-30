@@ -115,3 +115,4 @@ noremap ;; ;
 
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>x :x<CR>
