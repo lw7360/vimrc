@@ -44,6 +44,8 @@ filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 
+set rtp+=~/.fzf
+
 syntax enable
 set background=dark
 let g:solarized_visibility = "high"
