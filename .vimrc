@@ -1,50 +1,50 @@
-set nocompatible
-filetype off
+call plug#begin('~/.vim/plugged')
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'gmarik/Vundle.vim'
 
-Plugin 'gmarik/Vundle.vim'
+Plug 'altercation/vim-colors-solarized'
 
-Plugin 'altercation/vim-colors-solarized'
+Plug 'kien/ctrlp.vim'
 
-Plugin 'kien/ctrlp.vim'
+Plug 'bling/vim-airline'
 
-Plugin 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
 
-Plugin 'tpope/vim-fugitive'
+Plug 'Townk/vim-autoclose'
 
-Plugin 'Townk/vim-autoclose'
+Plug 'kchmck/vim-coffee-script'
 
-Plugin 'kchmck/vim-coffee-script'
+Plug 'derekwyatt/vim-scala'
 
-Plugin 'derekwyatt/vim-scala'
+Plug 'digitaltoad/vim-jade'
 
-Plugin 'digitaltoad/vim-jade'
+Plug 'fatih/vim-go'
 
-Plugin 'fatih/vim-go'
+Plug 'terryma/vim-expand-region'
 
-Plugin 'terryma/vim-expand-region'
+Plug 'Valloric/YouCompleteMe', { 'do': 'cd ~/.vim/bundle/YouCompleteMe; ./install.sh --clang-completer --gocode-completer' }
 
-Plugin 'Valloric/YouCompleteMe'
+Plug 'tpope/vim-commentary'
 
-Plugin 'tpope/vim-commentary'
+Plug 'tpope/vim-sleuth'
 
-Plugin 'tpope/vim-sleuth'
+Plug 'tpope/vim-endwise'
 
-Plugin 'tpope/vim-endwise'
+Plug 'rking/ag.vim'
 
-Plugin 'rking/ag.vim'
+Plug 'kshenoy/vim-signature'
 
-Plugin 'kshenoy/vim-signature'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
+Plug 'junegunn/vim-easy-align'
 
-set rtp+=~/.fzf
+call plug#end()
+
+" Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
+vmap <Enter> <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
 
 syntax enable
 set background=dark
