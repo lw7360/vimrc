@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/bundle')
 
 Plug 'gmarik/Vundle.vim'
 
