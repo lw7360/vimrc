@@ -44,6 +44,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 
 Plug 'junegunn/vim-easy-align'
 
+Plug 'jamessan/vim-gnupg'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
