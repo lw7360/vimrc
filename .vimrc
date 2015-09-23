@@ -28,7 +28,7 @@ Plug 'fatih/vim-go'
 
 Plug 'terryma/vim-expand-region'
 
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/bundle/YouCompleteMe', 'do': './install.py' }
 
 Plug 'tpope/vim-commentary'
 
