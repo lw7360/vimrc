@@ -28,7 +28,9 @@ Plug 'fatih/vim-go'
 
 Plug 'terryma/vim-expand-region'
 
-Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/bundle/YouCompleteMe', 'do': 'sudo ./install.py' }
+" Plug 'Valloric/YouCompleteMe', { 'dir': '~/.vim/bundle/YouCompleteMe', 'do': 'sudo ./install.py' }
+
+Plug 'Shougo/neocomplete.vim'
 
 Plug 'tpope/vim-commentary'
 
@@ -54,6 +56,7 @@ vmap <Enter> <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+let g:neocomplete#enable_at_startup = 1
 
 syntax enable
 set background=dark
