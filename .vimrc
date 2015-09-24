@@ -54,13 +54,12 @@ vmap <Enter> <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-:silent! colorscheme
 
 syntax enable
 set background=dark
 let g:solarized_visibility = "high"
 let g:solarized_contrast = "high"
-colorscheme solarized
+silent! colorscheme solarized
 
 set encoding=utf-8
 set scrolloff=3
