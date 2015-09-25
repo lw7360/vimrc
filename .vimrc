@@ -48,6 +48,8 @@ Plug 'junegunn/vim-easy-align'
 
 Plug 'jamessan/vim-gnupg'
 
+Plug 'mxw/vim-jsx'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
@@ -57,6 +59,8 @@ vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 let g:neocomplete#enable_at_startup = 1
+
+let g:jsx_ext_required = 0
 
 syntax enable
 set background=dark
