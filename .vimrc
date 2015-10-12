@@ -60,7 +60,7 @@ nmap ga <Plug>(EasyAlign)
 
 let g:neocomplete#enable_at_startup = 1
 
-let g:jsx_ext_required = 0
+let g:jsx_ext_required = 1
 
 syntax enable
 set background=dark
