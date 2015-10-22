@@ -61,10 +61,11 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 
 Plug 'junegunn/vim-easy-align'
 
-Plug 'jamessan/vim-gnupg'
-
 Plug 'mxw/vim-jsx'
 let g:jsx_ext_required = 1
+
+Plug 'luochen1990/rainbow'
+let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 call plug#end()
 
