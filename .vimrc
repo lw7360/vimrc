@@ -66,6 +66,8 @@ let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 Plug 'editorconfig/editorconfig-vim'
 
+Plug 'wakatime/vim-wakatime'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
