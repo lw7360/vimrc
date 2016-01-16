@@ -68,6 +68,8 @@ Plug 'editorconfig/editorconfig-vim'
 
 Plug 'wakatime/vim-wakatime'
 
+Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
