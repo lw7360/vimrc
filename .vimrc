@@ -15,7 +15,8 @@ Plug 'sjl/badwolf'
 
 Plug 'kien/ctrlp.vim'
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 " airline config
 let g:bufferline_echo = 0
 let g:airline_powerline_fonts = 1
