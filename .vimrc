@@ -71,6 +71,8 @@ Plug 'wakatime/vim-wakatime'
 
 Plug 'mhinz/vim-startify'
 
+Plug 'justinmk/vim-sneak'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
