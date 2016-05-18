@@ -102,6 +102,7 @@ set backspace=indent,eol,start " let backspace delete over line breaks, indentat
 """""""""""""
 set encoding=utf-8 " sets how vim shall reprsent characters internally
 set number " show line numbers
+set relativenumber " use relative numbers
 set showcmd " show command in bottom bar
 set cursorline " highlight current line
 set wildmenu " visual autocomplete for command menu
