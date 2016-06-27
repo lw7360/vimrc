@@ -190,5 +190,12 @@ set timeoutlen=500 ttimeoutlen=0 " set timeoutlen
 map ; :
 noremap ;; ;
 
+" enable s_next for sneak
+let g:sneak#s_next = 1
+
+" determine sneak case sensitivity from 'ignorecase' and 'smartcase'
+let g:sneak#use_ic_scs = 1
+
+
 " press <F5> to strip end of line whitespace
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
