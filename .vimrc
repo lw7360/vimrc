@@ -13,7 +13,7 @@ Plug 'gmarik/Vundle.vim'
 
 Plug 'sjl/badwolf'
 
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
