@@ -199,7 +199,7 @@ let g:sneak#s_next = 1
 let g:sneak#use_ic_scs = 1
 
 " highlight the offending character when line goes over 80 characters
-highlight ColorColumn ctermbg=DarkMagenta
+highlight ColorColumn ctermbg=Magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
 " press <F5> to strip end of line whitespace
