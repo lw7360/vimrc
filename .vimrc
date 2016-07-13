@@ -73,6 +73,8 @@ Plug 'mhinz/vim-startify'
 
 Plug 'justinmk/vim-sneak'
 
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
