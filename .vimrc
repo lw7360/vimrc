@@ -75,6 +75,8 @@ Plug 'justinmk/vim-sneak'
 
 Plug 'pangloss/vim-javascript'
 
+Plug 'scrooloose/syntastic'
+
 call plug#end()
 
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
@@ -121,6 +123,20 @@ set noshowmode " hide status line in the bottom
 set ambiwidth=double " use two character spaces for ambiguous characters
 " specifies the characters to fill status lines
 set fillchars+=stl:\ ,stlnc:\
+
+" setup syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" setup syntastic with semistandard
+let g:syntastic_javascript_checkers=['standard']
+let g:syntastic_javascript_standard_exec = 'semistandard'
 
 """""""""""""
 " SEARCHING "
