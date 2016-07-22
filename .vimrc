@@ -9,8 +9,6 @@ endif
 
 call plug#begin('~/.vim/bundle')
 
-Plug 'gmarik/Vundle.vim'
-
 Plug 'sjl/badwolf'
 
 Plug 'ctrlpvim/ctrlp.vim'
@@ -220,3 +218,4 @@ call matchadd('ColorColumn', '\%81v', 100)
 
 " press <F5> to strip end of line whitespace
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
